@@ -1,0 +1,357 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <title>#jaxx | FUTOSHI IWASHITA</title> 
+        <link rel="canonical" href="http://jaxx2104.info/">
+        <meta charset="utf-8">
+        <meta name="robots" content="INDEX,FOLLOW">
+        <meta name="description" content="#jaxxはwebとモノのデザイン・制作の個人ポートフォリオサイト">
+        <meta name = "viewport" content="width=device-width, maximum-scale=1">
+        <!-- Kills text zoom in iOS. Media Queries manage font sizes -->
+        <link href="css/screen.css" rel="stylesheet" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+
+        <script type="text/javascript">
+         var num = 0;
+         var int = 0;
+         $(window).bind("load", function() {
+             var int = setInterval("sFade()" , 100);  // 1000ミリ秒ごとにフェードインの処理の実行
+         });
+         function sFade() {
+             if (num >= 1) {
+	             clearInterval(int); // setIntervalの解除
+             }
+             $('#box'+num).fadeIn(1500); // フェードインの実行
+             num++;
+         }
+        </script>
+        <script type="text/javascript">
+         var _gaq = _gaq || [];
+         _gaq.push(['_setAccount', 'UA-24867215-2']);
+         _gaq.push(['_trackPageview']);
+         (function() {
+             var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+             ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+         })();
+        </script>
+    </head>
+    <body>
+        <a href="../" class="title">
+            <div>
+                <h1>Portfolio</h1>
+                <h6>今はWeb制作の仕事をしています。<br>このサイトは自分が学生時代のポートフォリオサイトです。<br>現在更新はありませんが、誰かの参考になることがあればいいなと残しています。</h6>
+                <h1>←</h1>
+                <small>top page</small>
+            </div>
+        </a>
+        <a class="title">
+            <div id="">
+            </div>
+        </a>
+
+
+        <a href ="yomu.html">
+            <div id="box">
+                <img src="thumb/yomu.jpg"/>
+            </div>
+        </a>
+
+        <a href ="yomu.html">
+            <div>
+                <h3>Yomu</h3>
+                <p></p>
+                <p>iOS App - RSS Reader</p>
+                <h6>Yomuは「キュレーション無く、好きな記事を読む」をコンセプトに、作られたRSSリーダーです。パレットのかたちをした一覧画面ではサイトを横断して記事を読むことが出来ます。</h6>
+                <h6>製作期間：2014.4 - 2014.11<br />
+          使ったソフト：Titanium Mobile</h6>
+                <small>detail</small> 
+            </div> 
+        </a> 
+
+
+        <a class="" href ="freeform.html" title="">
+            <div id="box3">
+                <img src="thumb/freeform3.jpg"/>
+            </div>
+        </a>
+
+        <a href ="freeform.html"> 
+            <div id="">
+                <h3>Freeform™</h3>
+                <p></p>
+                <p>Graduation work</p>
+                <h6>卒業制作。すべての人にとって、ものづくりの分野は環境やノウハウにおいて閉鎖的なものでしたが、デジタルファブリケーションはものづくりをオープンなものにしました。だれもがインタラクティブに好きな形の家具や壁装飾を作る仕組みを提案しました。</h6>
+                <h6>製作期間：2012.4 - 2013.2<br>
+          使ったソフト：grasshopper<br>
+          材質：アメリカンチップボード</h6>
+                <small>/detail</small> 
+            </div> 
+        </a> 
+
+        <a class="" href="iphone.html"  title="">
+            <div id="box4">
+                <img src="thumb/iphone1.jpg"/>
+            </div>
+        </a>
+
+        <a href="iphone.html"> 
+            <div id="">
+                <h3>V01</h3>
+                <p></p>
+                <p>iPhone Case Application</p>
+                <h6>個人制作。iPhoneの寸法データを手に入れたのでGrasshopperを使って各々がケースを自作できるアプリケーションを作ってみました。</h6>
+                <h6>製作期間：3日<br>
+          使ったソフト：GRASSHOPPER Illustrator<br>
+          材質:ポリカーボネイト</h6>
+                <small>/detail</small> 
+            </div> 
+        </a> 
+
+        <a class="" href="logo.html" title="">
+            <div id="box5">
+                <img src="thumb/logo4.jpg"/>
+            </div>
+        </a>
+
+        <a href="logo.html"> 
+            <div id="">
+                <h3>FONT</h3>
+                <p></p>
+                <p>Its original work of a sticker</p>
+                <h6>個人製作。Graffitiはvoronoiを再利用しました。<br>市販しているステッカー用のフィルムを使用しています。</h6>
+                <h6>製作期間：3日<br>
+          使ったソフト：GRASSHOPPER Illustrator<br>
+          材質：ステッカー用シート</h6>
+                <small>/detail</small> 
+            </div> 
+        </a> 
+
+
+        <!-- How this works
+         <body> is the wrapper
+           <a href=""> is your unit container, set the padding-bottom same as width to preserve the square
+             <div> positions a unit's content inside the square
+               <h3>Title</h3>
+               <p>Words</p>
+               <small>Small words</small>
+             </div>
+           </a>
+           Rinse and repeat
+         </body>
+         --> 
+
+
+        <a class=""  title="">
+            <div id="box6">
+                <img src="thumb/acarine2.jpg" />
+            </div>
+        </a>
+
+        <a> 
+            <div id="">
+                <h3>acarine005</h3>
+                <p></p>
+                <p>The prototype of the paper of lighting</p>
+                <h6>照明器具acarineのプロトタイプのモック制作。Grasshopperによってvoronoiをパラメトリックデザインにしたものを使用。レーザーカッターを使って出力した。等高重心立体は手で押してあげることでフラフラと変化を見せます。</h6>
+                <h6>製作期間：1週間<br>
+          使ったソフト：GRASSHOPPER Illustrator<br>
+          材質：チップボード</h6>
+                <small>/not detail</small> 
+            </div> 
+        </a> 
+
+        <a class="" href="card.html" title="">
+            <div id="box7">
+                <img src="thumb/card1.jpg"/>
+            </div>
+        </a>
+
+        <a href="card.html"> 
+            <div id="">
+                <h3>名刺制作</h3>
+                <p>Work of a transparent card</p>
+                <h6>透明な名刺を制作しました。<br>印刷可能な透明フィルムを使用しています。</h6>
+                <h6>製作期間：1週間<br>
+          使ったソフト：Illustratorを使用<br>
+          費用：30枚で1200円</h6>
+                <small>/detail</small> 
+            </div> 
+        </a> 
+
+        <a class="" href="32.html" title="">
+            <div id="box8">
+                <img src="thumb/vor3.png"/>
+            </div>
+        </a>
+
+        <a href="32.html"> 
+            <div id="">
+                <h3>3.2*3.2*3.2</h3>
+                <p></p>
+                <p>Japanese culture is contemporary.</p>
+                <h6>ことわざの“壁に耳あり障子に目あり”から隠し事や内緒話は、どこからともなくもれやすいというのをモチーフに人が作品と対面した時に反対側で同じ作品を見ている人の姿が、ちらちらと隙間や影を介して映り込む作品</h6>
+                <h6>製作期間：1週間<br>
+          使ったソフト：Rhinoceros Photoshop<br>
+          材質：コピー紙</h6>
+                <small>/detail</small> 
+            </div> 
+        </a> 
+
+        <a class="" title="mikalog">
+            <div id="box9">
+                <img src="thumb/mik2.jpg"/>
+            </div>
+        </a>
+
+        <a href="mik.html"> 
+            <div id="">
+                <h3>mikalog</h3>
+                <p></p>
+                <p>WordPressで制作、その後管理</p>
+                <h6>製作期間：1ヶ月</h6>
+                <h6>使った言語：PHP JavaScript</h6>
+                <h6></h6>
+                <small>detail</small> 
+            </div> 
+        </a> 
+
+
+        <a title="" href="jaxx.html">
+            <div id="box10">
+                <img src="thumb/jaxx3.png" />
+            </div>
+        </a>
+
+        <a> 
+            <div id="" href="jaxx.html">
+                <h3>jaxx</h3>
+                <p></p>
+                <p>HTML5とCSS3によるリキッドデザイン</p>
+                <h6>製作期間：1ヶ月</h6>
+                <h6>使った言語：HTML5 CSS3</h6>
+                <h6></h6>
+                <small>detail</small> 
+            </div> 
+        </a> 
+
+
+
+        <a class="" href="mille.html" title="mille feuille">
+            <div id="box11">
+                <img src="thumb/mille3.png"/>
+            </div>
+        </a>
+
+        <a href="mille.html"> 
+            <div id="">
+                <h3>mille feuille</h3>
+                <p></p>
+                <p>合理的に変化するかたち</p>
+                <h6>木がつくる繊細な木漏れ日は強い日差しから半透明な木陰をつくり、陽の傾きによる木漏れ日の刻々変化は人に快適で楽しさのある暮らしを与えてくれました。自然な変化を表現するアルゴリズムとしてCAプログラムを使用しProcessingによって有機的な形態の設計を行った。</h6>
+                <h6>製作期間：5ヶ月<br>
+          使ったソフト：processing sketchup<br>
+          材質：アクリル　瞬間調光硝子</h6>
+                <small>detail</small> 
+            </div> 
+        </a> 
+
+        <a class="group1" href="zig.html" title="ZIG">
+            <div id="box12">
+                <img src="thumb/zig1.jpg"/>
+            </div>
+        </a>
+
+
+        <a href="zig.html"> 
+            <div id="">
+                <h3>ZIG</h3>
+                <p></p>
+                <p>21ユニットの集合住宅</p>
+                <h6>都合の良いことは助け合い、悪いことは隠し合う。そんな身勝手な人間の気持ちを建築に表現しました。<br>住人をノマドワーカーに限定するこでコモンスペースやワークスペースについて取り組んだ課題</h6>
+                <h6>製作期間：3ヶ月<br>
+          使ったソフト：sketchup<br>
+          材質：スチレンボード</h6>
+                <small>detail</small> 
+            </div> 
+        </a> 
+
+        <a class="" href="mau.html" title="MAU">
+            <div id="box13">
+                <img src="thumb/co1.jpg"/>
+            </div>
+        </a>
+
+
+        <a href="mau.html"> 
+            <div id="">
+                <h3>MAU</h3>
+                <p></p>
+                <p>コンバージョンによる再生</p>
+                <h6>「若い人でも自分だけの着物を持てる」お店を提案しました。完全オーダーでは無く、パターンをこちらが選択肢として用意する事で比較的容易でコストを抑えられるのではと思います。内装のデザインはシェルフの機能を内包した天井を設けました。</h6>
+                <h6>製作期間：3ヶ月<br>
+          使ったソフト：sketchup<br>
+          材質：なし</h6>
+                <small>detail</small> 
+            </div> 
+        </a> 
+
+        <a class="group1" href="fog.html" title="FOG">
+            <div id="box14">
+                <img src="thumb/fog3.jpg"/>
+            </div>
+        </a>
+
+        <a href="fog.html"> 
+            <div id="">
+                <h3>FOG</h3>
+                <p></p>
+                <p>主題のある美術館</p>
+                <h6>オープンでクローズな展示空間を表現しようと この美術館をFOG という名前にしました。 最も特徴的なベジエ曲線で描かれた屋根は ３つの屋内展示と１つの屋外展示を繋いでいます。</h6>
+                <h6>製作期間：5ヶ月<br>
+          使ったソフト：sketchup<br>
+          材質：スチレンボード 塩ビ板</h6>
+                <small>detail</small> 
+            </div> 
+        </a> 
+
+        <div class="category" id=""> 
+            <h2>processing</h2> 
+        </div> 
+
+        <a style="cursor: default"> 
+            <div id="box15"> 
+                <img src="thumb/pro1.jpg"/>
+            </div> 
+        </a> 
+
+        <a style="cursor: default"> 
+            <div id="box16"> 
+                <img src="thumb/pro2.jpg"/>
+            </div> 
+        </a> 
+
+        <a style="cursor: default"> 
+            <div id="box17"> 
+                <img src="thumb/pro3.jpg"/>
+            </div> 
+        </a> 
+        
+
+        <a href="" style="cursor: default"> 
+            <div id=""> 
+                <h3>&nbsp;</h3> 
+                <p>Copyright © FUTOSHI IWASHITA </p>
+                <p>All rights reserved. 2011</p> 
+                <small></small> 
+            </div> 
+
+
+        </a><script src="scripts/css3-mediaqueries.js"></script>
+
+
+
+    </body> 
+</html>

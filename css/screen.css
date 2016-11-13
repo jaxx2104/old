@@ -1,0 +1,181 @@
+/*	Authors		Craig Rozynski craigrozynski.com, dinosaurswithlaserz.com 
+							Marco Lago marcolago.com
+		Version		2.0 2011-07-15 */
+
+/* CSS Reset (customised) */
+
+#box1,#box2,#box3,#box4,#box5,#box6,#box7,#box8,#box9,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17{display: none; content: '';}
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, em, img, small, strong {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+}
+html {font-size:80%;
+
+      }
+
+body { display: block;
+       top:0; left:0;
+       behavior: url(PIE.htc);}
+html { overflow-y: scroll; }
+a:hover, a:active { outline: none; }
+small { font-size: 85%; }
+strong, th { font-weight: bold; }
+::-moz-selection{ background: #3b7cbf; color: #fff; text-shadow: none; }
+::selection { background: #3b7cbf; color: #fff; text-shadow: none; }
+a:link { -webkit-tap-highlight-color: #3b7cbf; }
+.ie7 img { -ms-interpolation-mode: bicubic; }
+h1, h2, h3, h4, h5 { font-weight: bold; }
+h6 {font-weight: lighter; }
+/* Primary Styles */
+  
+body {
+	padding: 7.5px;
+	font: 0.75em 'Open Sans',"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 'ÉqÉâÉMÉmäpÉS Pro W3','Hiragino Kaku Gothic Pro','ÉÅÉCÉäÉI',Meiryo,'ÇlÇr ÇoÉSÉVÉbÉN',sans-serif;
+	color: #515047;
+	background-color: #FFFFFF;
+}
+a, a:link, a:visited, a:active, .title, .category {
+	float: left;
+	width: 100%;
+	height: auto;
+	margin-bottom: 22.5px;
+	text-decoration: none;
+}
+h1, h2, h3 { font-size: 2.25em; }
+h1 {
+	color: #aaaaaa;
+	line-height: 0.8;
+	letter-spacing: -0.15em;
+}
+h2 {
+	color: #006699;
+	line-height: 0.675;
+	letter-spacing: -0.1em;
+}
+h3 {
+	color: #333333;
+	line-height: 0.675;
+	letter-spacing: -0.1em;
+}
+p {
+	font-size: 0.9em;
+	line-height: 0.86;
+	margin: 0.56em 0;
+	color: #666;
+	font-weight: 300;
+}
+small {
+	font-size: 0.75em;
+	color: #3b7cbf;
+	font-weight: 400;
+	text-align: right;
+}
+h6 {
+        font-size: 0.64em;
+	color: #666;
+        margin: 0.75em 0;
+	font-weight: 300;
+     	letter-spacing: -0.037em;
+
+
+
+}
+img { max-width: 100%; }
+
+canvas { position:fixed;    top:0; left:0; width:100%; height:100%; }
+
+
+/* Media Queries */
+
+/* Column Control Media Queries */
+
+@media screen and (min-width:500px) {
+	body {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 40px;
+		overflow: hidden;
+	}
+	a {     background-color: rgba(255,255,255,0);
+		-webkit-transition: background-color .3s linear;
+		-moz-transition: -color .3s linear;
+		transition: background-color .3s linear;
+	}
+	a:hover {
+	         background-color: rgba(255,200,30,1);
+        }
+	a.title {
+	         background-color: rgba(255,255,255,0);
+        }
+	a, a:link, a:visited, a:active, .title, .category {
+		position: relative;
+		top: 0;
+		overflow: hidden;
+	}
+	div, h2 { position: absolute; }
+}
+
+/* Two Column */
+
+@media screen and (min-width:500px) {
+	a, a:link, a:visited, a:hover, a:active, .title, .category {
+		width: 47%;
+		margin: 0 3% 20px 0;
+		padding-bottom: 47%;
+	}
+}
+
+/* Three Column */
+
+@media screen and (min-width:800px) {
+	.title, .category, a, a:link, a:visited, a:hover, a:active {
+		width: 31%;
+		margin: 0 2% 20px 0;
+		padding-bottom: 31%;
+	}
+}
+
+/* Four Column */
+
+@media screen and (min-width:1200px) {
+	.title, .category, a, a:link, a:visited, a:hover, a:active {
+		width: 23%;
+		margin: 20px 2% 0 0;
+		padding-bottom: 23%;
+	}
+}
+
+/* Font Size Control Media Queries */
+
+@media screen and (min-width:500px) {
+	h1, h2, h3 { font-size: 2em; }
+	/*p { font-size: 1em; line-height: 1.2; }*/
+}
+@media screen and (min-width:600px) {
+	h1, h2, h3 { font-size: 2.5em; }
+}
+@media screen and (min-width:700px) {
+	h1, h2, h3 { font-size: 3em; }
+	p { font-size: 1.25em; }
+}
+@media screen and (min-width:800px) {
+	h1, h2, h3 { font-size: 2.5em; }
+	p { font-size: 1em; }
+}
+@media screen and (min-width:1000px) {
+	h1, h2, h3 { font-size: 3.25em; }
+	p { font-size: 1.25em; }
+}
+@media screen and (min-width:1200px) {
+	p { font-size: 1em; }
+}
+@media screen and (min-width:1400px) {
+	p { font-size: 1.25em; }
+}
+@media screen and (min-width:1600px) {
+	h1, h2, h3 { font-size: 4em; }
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+  <head> 
+    <title>#jaxx | FUTOSHI IWASHITA</title> 
+    <link rel="canonical" href="http://jaxx2104.info/">
+    <meta charset="utf-8">
+    <meta name="robots" content="INDEX,FOLLOW">
+    <meta name="description" content="#jaxxはwebとモノのデザイン・制作の個人ポートフォリオサイト">
+    <meta name = "viewport" content="width=device-width, maximum-scale=1"> <!-- Kills text zoom in iOS. Media Queries manage font sizes -->
+    <link href="css/screen.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+
+    <script type="text/javascript">
+    var num = 0;
+    var int = 0;
+    $(window).bind("load", function() {
+      var int = setInterval("sFade()" , 100);  // 1000ミリ秒ごとにフェードインの処理の実行
+    });
+    function sFade() {
+      if (num >= 1) {
+	clearInterval(int); // setIntervalの解除
+      }
+      $('#box'+num).fadeIn(1500); // フェードインの実行
+      num++;
+    }
+    </script>  
+
+    
+    <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-24867215-2']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+    </script>
+  </head> 
+  <body> 
+
+
+    <a href="./" class="title"> 
+      <div id=""> 
+        <h1>Design Works</h1>
+        <h6>WebデザインやCGなどの制作物</h6>
+        <p>Design and modeling of buildings or structures. About web design study have also personally.</p> 
+        <h1>←</h1>
+        <small>work page</small> 
+      </div> 
+    </a> 
+
+    <a title="">
+      <div id="box1">
+        <img src="thumb/mik3.jpg" />
+      </div>
+    </a>
+
+    <a title="">
+      <div id="box2">
+        <img src="thumb/mik2.jpg" />
+      </div>
+    </a>
+
+    <a title="">
+      <div id="box3">
+        <img src="thumb/mik6.png" />
+      </div>
+    </a>
+
+
+    <a title="">
+      <div id="box4">
+        <img src="thumb/mik5.png" />
+      </div>
+    </a>
+
+    <a title="">
+      <div id="box5">
+        <img src="thumb/mik4.png" />
+      </div>
+    </a>
+
+    <a> 
+      <div id="box6">
+        <h3>mikalog</h3>
+        <p></p>
+        <p>WordPressで制作、その後管理</p>
+        <h6>製作期間：1ヶ月</h6>
+        <h6>使った言語：PHP JavaScript</h6>
+        <h6></h6>
+        <small>http://mcf.xii.jp/wp/</small> 
+      </div> 
+    </a> 
+
+    
+
+    <a href="" style="cursor: default"> 
+      <div id="box7"> 
+        <h3>&nbsp;</h3> 
+        <p>Copyright © FUTOSHI IWASHITA </p>
+        <p>All rights reserved. 2011</p> 
+        <small></small> 
+      </div> 
+
+
+    </a><script src="scripts/css3-mediaqueries.js"></script>
+
+
+
+  </body> 
+</html>

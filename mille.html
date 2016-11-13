@@ -1,0 +1,118 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+  <head> 
+    <title>#jaxx | FUTOSHI IWASHITA</title> 
+    <link rel="canonical" href="http://jaxx2104.info/">
+    <meta charset="utf-8">
+    <meta name="robots" content="INDEX,FOLLOW">
+    <meta name="description" content="#jaxxはwebとモノのデザイン・制作の個人ポートフォリオサイト">
+    <meta name = "viewport" content="width=device-width, maximum-scale=1"> <!-- Kills text zoom in iOS. Media Queries manage font sizes -->
+    <link href="css/screen.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+    <script type="text/javascript">
+    var num = 0;
+    var int = 0;
+    $(window).bind("load", function() {
+      var int = setInterval("sFade()" , 100);  // 1000ミリ秒ごとにフェードインの処理の実行
+    });
+    function sFade() {
+      if (num >= 1) {
+	clearInterval(int); // setIntervalの解除
+      }
+      $('#box'+num).fadeIn(1500); // フェードインの実行
+      num++;
+    }
+    </script>  
+
+    <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-24867215-2']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+    </script>
+
+  </head> 
+  <body> 
+
+
+    <a href="./" class="title"> 
+      <div id=""> 
+        <h1>Design Works</h1>
+        <h6>WebデザインやCGなどの制作物</h6>
+        <p>Design and modeling of buildings or structures. About web design study have also personally.</p> 
+        <h1>←</h1>
+        <small>work page</small> 
+      </div> 
+    </a> 
+
+    <a class="group1" href="" title="">
+      <div id="box1">
+        <img src="thumb/mille1.jpg" />
+      </div>
+    </a>
+
+
+    <a title="">
+      <div id="box2">
+        <img src="thumb/mille2.png" />
+      </div>
+    </a>
+
+    <a title="">
+      <div id="box3">
+        <img src="thumb/mille3.png" />
+      </div>
+    </a>
+
+
+    <a title="">
+      <div id="box4">
+        <img src="thumb/mille4.jpg" />
+      </div>
+    </a>
+
+    <a title="">
+      <div id="box5">
+        <img src="thumb/mille5.jpg" />
+      </div>
+    </a>
+
+    <a> 
+      <div id="box6">
+        <h3>mille feuille</h3>
+        <p></p>
+        <p>合理的に変化するかたち</p>
+        <h6>木がつくる繊細な木漏れ日は強い日差しから半透明な木陰をつくり、陽の傾きによる木漏れ日の刻々変化は人に快適で楽しさのある暮らしを与えてくれました。自然な変化を表現するアルゴリズムとしてCAプログラムを使用しProcessingによって有機的な形態の設計を行った。</h6>
+        <h6>製作期間：5ヶ月<br>
+使ったソフト：processing sketchup<br>
+材質：アクリル　瞬間調光硝子</h6>
+        <small>/32.html</small> 
+      </div> 
+    </a> 
+
+    
+
+    <a style="cursor: default"> 
+      <div id="box7"> 
+        <h3>&nbsp;</h3> 
+        <p>Copyright © FUTOSHI IWASHITA </p>
+        <p>All rights reserved. 2011</p> 
+        <small></small> 
+      </div> 
+
+
+    </a><script src="scripts/css3-mediaqueries.js"></script>
+
+
+
+  </body> 
+</html>
